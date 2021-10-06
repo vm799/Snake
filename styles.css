@@ -1,4 +1,28 @@
 html, body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    padding: 4em;
+    background-color: rgb(128, 47, 128);
+    color:salmon;
+    border: 10px solid rgb(245, 162, 153);
+    text-align: center;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+border: 10px solid salmon;
+margin: 0 auto;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color:royalblue;
+}
+
+.snake {
+    background-color:greenyellow;
 }
